@@ -1,0 +1,66 @@
+/**index.wxss**/
+.proMsg {
+	margin : 14rpx 24rpx 30rpx;
+}
+
+.itemTitle {
+	padding: 18rpx 0 18rpx 18rpx;
+    border-bottom: 1rpx solid #dddddc;	
+	background-color: #5CACEE;
+}
+
+.item {	
+	padding: 18rpx 0 18rpx 18rpx;
+    border-bottom: 1rpx solid #dddddc;
+}
+
+.proImg {
+	float : right;
+	width: 60rpx;
+	height: 60rpx;
+}
+
+.oneline {
+	display: inline-block;
+}
+
+.oneline-in {
+	padding-bottom: -100rpx 0 100rpx;
+}
+
+.right {
+	display: inline-block;	
+	float : right;
+}
+
+.name {
+	width : 190rpx;
+	display: inline-block;	
+	float : right;
+}
+
+.phclass {
+	float : right;
+}
+
+.judge {
+	width:700rpx;
+	margin-left : -18rpx;
+	border : 1rpx solid #dddddc;
+}
+
+.input {
+	display : inline-block; 
+	margin-bottom : -8rpx;
+	margin-left: 20rpx;
+	width: 470rpx; 
+	border: 1rpx solid #dddddc;
+}
+
+.major {
+	display : inline-block; 
+	margin-bottom : -8rpx;
+	margin-left: 210rpx;
+	width: 470rpx; 
+	border: 1rpx solid #dddddc;
+}

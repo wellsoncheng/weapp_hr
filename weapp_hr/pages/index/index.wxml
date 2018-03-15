@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<block wx:if='{{state == 1}}'>
+  	<button bindtap="checkDeliver">填报简历</button>
+    <navigator url="../order/order">
+  		<button>预约面试</button>
+  	</navigator>
+  	<navigator url="../forCustom/forCustom">
+  		<button>联系我们</button>
+  	</navigator>
+</block>
+
+<block wx:elif='{{state == 2}}'>
+	<view>hr面板</view>
+</block>
+
+<block wx:else>
+	<view>面试官面板</view>
+</block>

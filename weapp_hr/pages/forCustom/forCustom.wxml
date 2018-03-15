@@ -1,0 +1,7 @@
+<!--company.wxml公司页面-->
+<view>联系电话：023-81399737</view>
+<view>联系客服（7*24h）：
+	<view class='myView'>第一种方式实现：</view>
+	<contact-button class='cBtn' type="default-dark" size="20" session-from="weapp">
+	</contact-button>
+</view>

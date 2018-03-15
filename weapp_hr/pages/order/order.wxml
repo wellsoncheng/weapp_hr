@@ -1,0 +1,5 @@
+<!--company.wxml公司页面-->
+<picker mode="selector" range="{{array}}" value="{{index}}" bindchange="listenerPickerSelected">
+	点击后方的时间预约面试
+    <text>{{array[index]}}</text>
+</picker>

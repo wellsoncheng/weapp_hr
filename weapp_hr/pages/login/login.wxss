@@ -1,0 +1,11 @@
+/**index.wxss**/
+.ad_popError{
+  color:red;
+  width: 708rpx;
+  height:40rpx;
+  font-size:32rpx;
+  text-align: center;
+  box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  line-height: 40rpx; 
+}

@@ -1,0 +1,8 @@
+<!--logn.wxml登录页面-->
+<form bindsubmit="formSubmit">
+	<input placeholder="手机号" bindblur="checkPhone" name="count"/>
+	<input placeholder="验证码" name="checkCode"/><button bindtap="getCheckCode">{{checkCode}}</button>	
+	<button formType="submit">注册</button>
+	<view class="ad_popError" wx:if="{{phoneErrorMsg}}">{{phoneErrorMsg}}</view>
+	<view class="ad_popError" wx:if="{{pswErrorMsg}}">{{pswErrorMsg}}</view>  
+</form>
